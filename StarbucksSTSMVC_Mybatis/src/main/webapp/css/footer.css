@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+#footer{
+	background: #2C2A29;
+	clear: both;
+	width: 100%;
+	padding : 32px 0 35px 0;
+}
+#footer_starmenus{
+	width : 1182px;
+	height: 214px;
+	margin : 0 auto;
+	
+}
+#starbucks{
+	width : 70px;
+	height: 214px;
+	background: url(' https://www.starbucks.co.kr/common/img/footer/footer_logo.png ') right 8px no-repeat;
+	
+}
+#footer_menus{
+	width : 1100px;
+	height: 214px;
+}
+#footer_menus, #starbucks{
+	float : left;
+}
+#ul1, #ul2, #ul3, #ul4, #ul5 {
+	float : left;
+	padding-left : 40px;
+} 
+#footer_menus ul li{
+	list-style: none;
+}
+#footer_menus ul li a{
+	text-decoration: none;
+}
+#footer_menus ul{
+	width : 180px;
+}
+
+#footer_menus a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+} 
+#footer_menus a:hover {
+	text-decoration: underline;
+} 
+#footer_2{
+	width : 100%;
+	margin-top : 50px;
+	padding-top: 30px;
+	background : #282828;
+	height: 90px;
+	
+}
+#footer_2_inner{
+	width : 1230px;
+	margin : 0 auto;
+	/* border : 2px solid blue; */
+	height: 80px;
+}
+#footer_3{
+	width : 1190px;
+	margin : 0 auto;
+	height: 200px;
+	padding-top: 30px;
+}
+#footer_3 a:hover{
+	text-decoration: underline;
+}
+#footer_3_text a{
+	color : #999;
+	font-size : 12px;
+	line-height: 18px;
+	padding : 0 10px;
+	border-right : 1px solid #393939;
+	text-decoration: none;
+}
+#footer_3_inner{
+	width : 350px;
+	margin : 0 auto;
+}
+#footer_3_inner a{
+	border : 2px solid #fff;
+	border-radius: 3px;
+	color : #fff;
+	display: inline-block;
+	font-size : 12px;
+	margin : 10px 2px 0 3px;
+	width : 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+#footer_3_inner1{
+	text-align: center;
+	margin-bottom: 15px;
+	color : #999;
+}
+#footer_3_inner2{
+	text-align: center;
+	color : #999;
+}
